@@ -22,7 +22,7 @@ function Contact() {
 
     try {
       await axios.post(
-        "http://localhost:5000/api/contact",
+        "https://portfolio-backend-g8nx.onrender.com/api/contact",
         form
       );
 
